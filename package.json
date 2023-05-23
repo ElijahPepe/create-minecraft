@@ -1,7 +1,10 @@
 {
   "name": "create-minecraft",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A CLI for creating Minecraft servers",
+	"exports": {
+		".": "./dist/cli.js"
+	},
   "main": "./dist/cli.js",
   "bin": "./dist/cli.js",
   "scripts": {
