@@ -1,0 +1,32 @@
+{
+  "name": "create-minecraft",
+  "version": "1.0.0",
+  "description": "A CLI for creating Minecraft servers",
+  "main": "./dist/cli.js",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "watch": "node scripts/build.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElijahPepe/create-minecraft.git"
+  },
+  "author": "Elijah Conners <business@elijahpepe.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ElijahPepe/create-minecraft/issues"
+  },
+  "homepage": "https://github.com/ElijahPepe/create-minecraft#readme",
+  "dependencies": {
+    "@clack/prompts": "^0.6.3",
+    "@types/cross-spawn": "^6.0.2",
+    "@types/node": "^18.16.14",
+    "@types/yargs": "^17.0.24",
+    "chalk": "^5.2.0",
+    "cross-spawn": "^7.0.3",
+    "esbuild": "^0.17.19",
+    "log-update": "^5.0.1",
+    "undici": "^5.20.0",
+    "yargs": "^17.7.2"
+  }
+}
