@@ -1,8 +1,9 @@
 {
   "name": "create-minecraft",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI for creating Minecraft servers",
   "main": "./dist/cli.js",
+  "bin": "./dist/cli.js",
   "scripts": {
     "build": "node scripts/build.js",
     "watch": "node scripts/build.js --watch"
